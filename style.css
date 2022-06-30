@@ -1,0 +1,55 @@
+body{
+	background-color: rgb(240, 240, 240) !important;
+}
+
+.maindiv{
+	height: 100vh;
+	background-color: rgb(240, 240, 240);
+	width: 0px;
+	transition: 0.5s;
+}
+
+li{
+	list-style-type: none;
+	text-align: center;
+	color: rgb(90, 90, 90);
+	display: none;
+}
+
+.navbar_icon, .navbar_items{
+	
+	margin: 15px !important;
+	font-size: 24px;
+	color: rgb(90, 90, 90);
+	font-weight: bold;
+}
+
+.navbar_icon{
+	width: 50px;
+	height: 50px;
+
+}
+
+.navbar_items{
+	padding-left: 5px;
+	margin: 30px !important;
+}
+
+.navbar_icon:hover{
+	color: rgb(221, 160, 221);
+}
+button{
+	width: 150px;
+	height: 50px;
+	border: 2px;
+	border-radius: 30px !important;
+	background-color: inherit;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+button:hover{
+	box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+	
+	color: rgb(221, 160, 221);
+	
+}
